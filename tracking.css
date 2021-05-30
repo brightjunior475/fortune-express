@@ -1,0 +1,42 @@
+.containertrack {
+  width: 40%;
+  height: 300px;
+  background-color: turquoise;
+  float: left;
+  margin-left: 10%;
+  background-image: url("slide2.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.track {
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-right: 10%;
+  background-image: url("pexels-tima-miroshnichenko-6169056.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.containertrack > h3 {
+  margin-top: 60px;
+}
+.containertrack > p {
+  font-weight: lighter;
+}
+.containertrack > input {
+  width: 50%;
+  background: transparent;
+  color: blanchedalmond;
+}
+.containertrack > button {
+  margin-top: 10px;
+  width: 50%;
+}
+.containertrack > input:hover {
+  border: 4px solid yellowgreen;
+}
+.containertrack > button:hover {
+  background: yellowgreen;
+}
