@@ -4,20 +4,33 @@
   background-color: turquoise;
   float: left;
   margin-left: 10%;
-  background-image: url("slide2.jpg");
+  background-image: url('slide2.jpg');
   background-position: center;
   background-size: cover;
   text-align: center;
   color: white;
+}
+@media only screen and (max-width: 820px) {
+  .containertrack {
+    display: block;
+    width: 100%;
+    margin: 0px;
+  }
 }
 .track {
   width: 40%;
   height: 300px;
   float: left;
   margin-right: 10%;
-  background-image: url("pexels-tima-miroshnichenko-6169056.jpg");
+  background-image: url('pexels-tima-miroshnichenko-6169056.jpg');
   background-position: center;
   background-size: cover;
+}
+@media only screen and (max-width: 820px) {
+  .track {
+    display: block;
+    width: 100%;
+  }
 }
 .containertrack > h3 {
   margin-top: 60px;
